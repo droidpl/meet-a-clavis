@@ -1,0 +1,37 @@
+{
+  "name": "meet-a-clavis",
+  "version": "1.0.0",
+  "description": "Meet a new clavis every week",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droidpl/meet-a-clavis.git"
+  },
+  "keywords": [
+    "clavis",
+    "meeting",
+    "bot"
+  ],
+  "author": "droidpl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/droidpl/meet-a-clavis/issues"
+  },
+  "homepage": "https://github.com/droidpl/meet-a-clavis#readme",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "dotenv": "^16.0.0",
+    "googleapis": "^100.0.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "round-robin-tournament": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
