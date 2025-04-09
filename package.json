@@ -27,7 +27,7 @@
     "@koa/router": "^10.1.1",
     "dotenv": "^16.0.0",
     "googleapis": "^100.0.0",
-    "koa": "^2.13.4",
+    "koa": "^2.16.1",
     "koa-body": "^4.2.0",
     "round-robin-tournament": "^1.2.3"
   },
